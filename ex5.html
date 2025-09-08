@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cake & Bee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1></h1>
+  </header>
+
+  <section class="cakes">
+    <div class="cake-item">
+  <img src="https://toujours.co.in/cdn/shop/products/Chocolate-Oreo-Cake.jpg?v=1679651489" alt="Oreo Cake">
+  <p>Oreo Cake – Rs. 300</p>
+</div>
+
+    <div class="cake-item">
+      <img src="https://w0.peakpx.com/wallpaper/922/674/HD-wallpaper-chocolate-cake-cake-food-chocolate-black-sweet-dessert.jpg" alt="Chocolate Cake">
+      <p>Chocolate Cake – Rs. 400</p>
+    </div>
+    <div class="cake-item">
+      <img src="https://cakebee.in/cdn/shop/files/cropped-white-PRZ09034copy_1_a1da5eac-5228-4274-941e-109c738b2c21.jpg?v=1707488346" alt="Red Velvet Cake">
+      <p>Red Velvet Cake – Rs. 700</p>
+    </div>
+    <div class="cake-item">
+      <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/caramel_cake-5374396.jpg" alt="Caramel Cake">
+      <p>Caramel Cake – Rs. 650</p>
+    </div>
+  </section>
+
+  <section class="order-box">
+    <h2>Order Cake</h2>
+    <label>Oreo Cake (Quantity)</label>
+    <input type="number" id="Oreo" value="0"><br>
+    <label>Chocolate Cake (Quantity)</label>
+    <input type="number" id="chocolate" value="0"><br>
+    <label>Red Velvet Cake (Quantity)</label>
+    <input type="number" id="redvelvet" value="0"><br>
+    <label>Caramel Cake (Quantity)</label>
+    <input type="number" id="Caramel" value="0"><br>
+
+    <button onclick="calculateBill()">Place Order</button>
+    <div id="bill"></div>
+  </section>
+ <footer>
+    <h2>Contact Us</h2>
+    <p><strong>Name:</strong> BB</p>
+    <p><strong>Phone:</strong>7523951789</p>
+    <p><strong>Email:</strong> cbee@gmail.com</p>
+    <p><strong>Location:</strong> Paris</p>
+  </footer>
+
+  <script src="ex5.js"></script>
+</body>
+</html>
